@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "297527660945",
+    "firebase_url": "https://rn-redux-fire.firebaseio.com",
+    "project_id": "rn-redux-fire",
+    "storage_bucket": "rn-redux-fire.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297527660945:android:7229ac739e840d6e480a30",
+        "android_client_info": {
+          "package_name": "com.devpoi.firebasetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297527660945-nqj6g58foft1nss42p19dqkieb65573r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS5QMydAGLwzhsDuVA1hvGY5f6JHCk27k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297527660945-nqj6g58foft1nss42p19dqkieb65573r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
