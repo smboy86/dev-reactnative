@@ -1,4 +1,4 @@
-package com.firebasetest;
+package com.devpoi.firebasetest;
 
 import android.app.Application;
 import android.content.Context;

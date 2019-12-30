@@ -1,4 +1,4 @@
-package com.firebasetest;
+package com.devpoi.firebasetest;
 
 import com.facebook.react.ReactActivity;
 
