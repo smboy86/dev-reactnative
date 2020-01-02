@@ -3,7 +3,8 @@ package com.devpoi.firebasetest;
 import android.app.Application;
 import android.content.Context;
 import com.facebook.react.PackageList;
-import com.facebook.react.ReactApplication;
+import com.facebook.react.ReactApplication;
+
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.soloader.SoLoader;
@@ -12,6 +13,7 @@ import java.util.List;
 
 import io.invertase.firebase.messaging.RNFirebaseMessagingPackage;
 import io.invertase.firebase.notifications.RNFirebaseNotificationsPackage;
+import io.invertase.firebase.firestore.RNFirebaseFirestorePackage;
 
 public class MainApplication extends Application implements ReactApplication {
 
@@ -31,7 +33,8 @@ public class MainApplication extends Application implements ReactApplication {
 
           packages.add(new RNFirebaseMessagingPackage());
           packages.add(new RNFirebaseNotificationsPackage());
-          
+          packages.add(new RNFirebaseFirestorePackage());
+
           return packages;
         }
 

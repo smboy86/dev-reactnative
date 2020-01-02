@@ -15,6 +15,9 @@ import {
   Text,
   StatusBar,
   Alert,
+  TextInput,
+  Button,
+  TouchableOpacity,
 } from 'react-native';
 import firebase from 'react-native-firebase';
 
@@ -90,9 +93,19 @@ const App = () => {
     }
   };
 
+  testJoin = () => {
+    console.log('testJoin');
+  };
+
   return (
     <>
       <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+        <View>
+          <Text>임시 가입</Text>
+          <TouchableOpacity onPress={() => this.testJoin}>
+            <Text>Login</Text>
+          </TouchableOpacity>
+        </View>
         <Text>파이어베이스 프로젝트 셋팅! 222</Text>
         {firebase.admob.nativeModuleExists && <Text>admob()</Text>}
         {firebase.analytics.nativeModuleExists && <Text>analytics()</Text>}
