@@ -1,0 +1,41 @@
+{
+  "name": "@fusioncharts/constructor",
+  "version": "1.0.2",
+  "description": "JavaScript Data Visualisation Library",
+  "author": "InfoSoft Global Pvt. Ltd. <support@fusioncharts.com>",
+  "homepage": "https://www.fusioncharts.com/",
+  "license": "https://www.fusioncharts.com/buy/",
+  "main": "index.js",
+  "bugs": {
+    "url": "https://www.fusioncharts.com/contact-support/"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "../../ci/prepublish/build ./",
+    "postpublish": "rm -rf ./src && mv ./_src ./src"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@babel/runtime": "7.4.5",
+    "@fusioncharts/core": "^1.0.2",
+    "@fusioncharts/maps": "^3.15.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.4.4",
+    "terser": "^4.0.2"
+  },
+  "keywords": [
+    "fusioncharts",
+    "charts",
+    "dataviz",
+    "graphs",
+    "visualization",
+    "js-charts",
+    "javascript-charts",
+    "dashboards",
+    "data-stories"
+  ],
+  "gitHead": "c20d70f281e0b4f725d90bd34e7ba9c3a140fe44"
+}
