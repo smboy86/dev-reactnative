@@ -1,4 +1,4 @@
-package com.inapptest;
+package com.inapptest.devpoi;
 
 import com.facebook.react.ReactActivity;
 

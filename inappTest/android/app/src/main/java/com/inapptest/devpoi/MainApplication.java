@@ -1,4 +1,4 @@
-package com.inapptest;
+package com.inapptest.devpoi;
 
 import android.app.Application;
 import android.content.Context;
