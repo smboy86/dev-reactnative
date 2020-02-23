@@ -926,6 +926,11 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
+"@mu29/react-native-in-app-purchase@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@mu29/react-native-in-app-purchase/-/react-native-in-app-purchase-1.0.3.tgz#9a36c11c4bd3db38a59dafb1e50cbd2c8832b56d"
+  integrity sha512-sTOt48ZhHRXIpiC10F1ySvNwXMvB6qF1APpqszMXmwoJitQ3CZ8y2kYsmHC03efEj1VAee0ACfZg2yIGm9rdLg==
+
 "@react-native-community/cli-debugger-ui@^3.0.0":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@react-native-community/cli-debugger-ui/-/cli-debugger-ui-3.0.0.tgz#d01d08d1e5ddc1633d82c7d84d48fff07bd39416"
